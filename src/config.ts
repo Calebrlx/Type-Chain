@@ -1,10 +1,10 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://alyeska.dev/", // replace this with your deployed domain
+  website: "https://relix.ai/", // replace this with your deployed domain
   author: "Caleb Forestal",
-  desc: "The strongly typed block chain.",
-  title: "Type-Chain",
+  desc: "AI research lab",
+  title: "Relix",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
@@ -50,7 +50,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Mail",
-    href: "mailto:caleb@alyeska.dev",
+    href: "mailto:caleb@relix.ai",
     linkTitle: `Send an email to ${SITE.title}`,
     active: false,
   },
@@ -62,7 +62,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Twitch",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://twitch.com",
     linkTitle: `${SITE.title} on Twitch`,
     active: false,
   },
