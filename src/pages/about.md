@@ -3,8 +3,6 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-### About Relix.ai
-
 At Relix.ai, we're on a mission to redefine the boundaries of artificial intelligence. Our journey is fueled by a passion for discovery and a commitment to excellence, driving us to explore the depths of AI's potential. Founded by visionaries in the field, Relix.ai has quickly emerged as a leading force in AI research and development, dedicated to solving complex challenges through innovative solutions.
 
 Our core lies in our people—a diverse team of researchers, engineers, and thought leaders who believe in the power of AI to transform the world. Together, we delve into the realms of machine learning, deep learning, and computational intelligence, uncovering insights that push the envelope of what's possible. Our work spans a wide range of disciplines, from advancing healthcare and enhancing education to revolutionizing industry and sustainability efforts.
