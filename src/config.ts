@@ -144,4 +144,28 @@ export const SOCIALS: SocialObjects = [
     linkTitle: `${SITE.title} on Mastodon`,
     active: false,
   },
+  {
+    name: "Gitlab",
+    href: "https://mastadon.social",
+    linkTitle: `${SITE.title} on Mastodon`,
+    active: false,
+  },
+  {
+    name: "Huggingface",
+    href: "https://mastadon.social",
+    linkTitle: `${SITE.title} on Mastodon`,
+    active: false,
+  },
+  {
+    name: "Bluesky",
+    href: "https://mastadon.social",
+    linkTitle: `${SITE.title} on Mastodon`,
+    active: false,
+  },
+  {
+    name: "Medium",
+    href: "https://mastadon.social",
+    linkTitle: `${SITE.title} on Mastodon`,
+    active: false,
+  },
 ];
