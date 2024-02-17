@@ -1,19 +1,19 @@
 ---
-title: How Do I Develop My Portfolio Website & Blog
-author: Sat Naing
-pubDatetime: 2022-03-25T16:55:12.000+00:00
-slug: how-do-i-develop-my-portfolio-and-blog
+title: "The AI Artist: Creativity Born from Code"
+author: Caleb Forestal
+pubDatetime: 2022-07-05T02:05:51Z
 featured: false
 draft: false
+slug: ais-role-in-art-and-creativity
 tags:
-  - NextJS
-  - TailwindCSS
-  - HeadlessCMS
-  - Blog
-description:
-  "EXAMPLE POST: My experience about developing my first portfolio website and a blog
-  using NextJS and a headless CMS."
+  - TypeScript
+  - QuantumComputing
+description: "Delve into the fascinating world of AI-generated art, examining how algorithms are being used to create music, literature, and visual arts, challenging our traditional notions of creativity."
 ---
+
+5. **Title:**
+   - **Short Description:** ais-role-in-art-and-creativity
+   - **Long Description:**
 
 > This article is originally from my [blog post](https://satnaing.dev/blog/posts/how-do-i-develop-my-portfolio-and-blog). I put this article to demonstrate how you can write blog posts/articles using AstroPaper theme.
 

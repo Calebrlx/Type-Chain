@@ -1,15 +1,14 @@
 ---
-author: Sat Naing
-pubDatetime: 2022-09-23T04:58:53Z
-modDatetime: 2024-01-15T13:05:56.066Z
-title: How to configure AstroPaper theme
-slug: how-to-configure-astropaper-theme
-featured: true
+title: "Data Privacy in the Age of AI: A Balancing Act"
+author: Caleb Forestal
+pubDatetime: 2022-07-05T02:05:51Z
+featured: false
 draft: false
+slug: the-challenges-of-data-privacy-with-ai-advancements
 tags:
-  - configuration
-  - docs
-description: How you can make AstroPaper theme absolutely yours.
+  - TypeScript
+  - QuantumComputing
+description: "Analyze the complex relationship between data privacy and artificial intelligence, highlighting the risks, responsibilities, and strategies to protect sensitive information in an increasingly AI-driven world."
 ---
 
 AstroPaper is a highly customizable Astro blog theme. With AstroPaper, you can customize everything according to your personal taste. This article will explain how you can make some customizations easily in the config file.

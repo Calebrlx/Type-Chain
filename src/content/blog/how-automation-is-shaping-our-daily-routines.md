@@ -1,18 +1,14 @@
 ---
-title: How to connect AstroPaper blog with Forestry CMS
-author: Sat Naing
-pubDatetime: 2022-09-21T05:17:19Z
-slug: how-to-connect-astro-paper-blog-with-forestry-cms
+title: "Robots Among Us: The Rise of Automation in Everyday Life"
+author: Caleb Forestal
+pubDatetime: 2022-07-05T02:05:51Z
 featured: false
 draft: false
+slug: how-automation-is-shaping-our-daily-routines
 tags:
-  - docs
-  - forestry-cms
-  - astro-paper
-ogImage: https://res.cloudinary.com/noezectz/v1663745737/astro-paper/astropaper-x-forestry-og_kqfwp0.png
-description:
-  Step by step process of connecting Astro-Paper blog theme with Forestry
-  Headless CMS.
+  - TypeScript
+  - QuantumComputing
+description: "Investigate the increasing presence of robots and automation in our homes, workplaces, and public spaces, discussing the benefits, challenges, and societal impacts of this technological evolution."
 ---
 
 > Important!!! Forestry is going to be discontinued on April 22nd, 2023. You can [read their announcement](https://forestry.io/blog/forestry.io-end-of-life/) for more info.

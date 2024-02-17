@@ -1,13 +1,14 @@
 ---
-title: Tailwind Typography Plugin
-author: Sat Naing
+title: "Quantum Computing and AI: A Future Together"
+author: Caleb Forestal
 pubDatetime: 2022-07-05T02:05:51Z
 featured: false
 draft: false
+slug: the-intersection-of-quantum-computing-and-ai
 tags:
   - TypeScript
-  - Astro
-description: "EXAMPLE POST: About Tailwind Typography Plugin and how you can use it effectively."
+  - QuantumComputing
+description: "Investigate how quantum computing could revolutionize artificial intelligence by exponentially increasing processing power, enabling AI to solve complex problems faster and more efficiently than ever before."
 ---
 
 > This article is from [TailwindLabs](https://tailwindcss-typography.vercel.app/). I put this article to demonstrate how you can write blog posts/articles using AstroPaper theme.

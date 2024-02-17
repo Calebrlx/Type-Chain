@@ -1,13 +1,14 @@
 ---
-author: Simon Smale
-pubDatetime: 2024-01-08T18:16:00.000Z
-modDatetime:
-title: How to add a new Social Icon to AstroPaper
+title: "AI in Education: Personalized Learning Paths"
+author: Caleb Forestal
+pubDatetime: 2022-07-05T02:05:51Z
 featured: false
 draft: false
+slug: the-evolution-of-ai-in-educational-methodologies
 tags:
-  - FAQ
-description: How to add a new social icon to AstroPaper
+  - TypeScript
+  - QuantumComputing
+description: "Discover how AI is transforming education through personalized learning experiences, adaptive teaching methods, and automated administrative tasks, potentially democratizing access to quality education for all."
 ---
 
 Hot new platform? Niche corner of the internet? Or one specific to your area? This post will guide you through how to add a new social icon to the theme.

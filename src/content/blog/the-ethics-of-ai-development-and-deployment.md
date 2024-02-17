@@ -1,15 +1,14 @@
 ---
-author: Simon Smale
-pubDatetime: 2024-01-03T20:40:08Z
-modDatetime: 2024-01-08T18:59:05Z
-title: How to use Git Hooks to set Created and Modified Dates
+title: "Ethical AI: Navigating the Moral Landscape"
+author: Caleb Forestal
+pubDatetime: 2022-07-05T02:05:51Z
 featured: false
 draft: false
+slug: the-ethics-of-ai-development-and-deployment
 tags:
-  - docs
-  - FAQ
-canonicalURL: https://smale.codes/posts/setting-dates-via-git-hooks/
-description: How to use Git Hooks to set your Created and Modified Dates on AstroPaper
+  - TypeScript
+  - QuantumComputing
+description: "This article addresses the moral dilemmas posed by advancing AI technology, from privacy concerns to decision-making autonomy, and discusses how developers can create ethical AI systems that benefit humanity."
 ---
 
 In this post I will explain how to use the pre-commit Git hook to automate the input of the created (`pubDatetime`) and modified (`modDatetime`) in the AstroPaper blog theme frontmatter

@@ -1,14 +1,14 @@
 ---
-title: How to update dependencies of AstroPaper
-author: Sat Naing
-pubDatetime: 2023-07-20T15:33:05.569Z
-slug: how-to-update-dependencies
+title: "Machine Learning 101: From Theory to Application"
+author: Caleb Forestal
+pubDatetime: 2022-07-05T02:05:51Z
 featured: false
 draft: false
-ogImage: /assets/forrest-gump-quote.webp
+slug: an-introduction-to-machine-learning
 tags:
-  - FAQ
-description: How to update project dependencies and AstroPaper template.
+  - TypeScript
+  - QuantumComputing
+description: "This comprehensive guide introduces the fundamentals of machine learning, its various models and algorithms, and real-world applications, offering readers a solid foundation in this pivotal area of AI."
 ---
 
 Updating the dependencies of a project can be tedious. However, neglecting to update project dependencies is not a good idea either 😬. In this post, I will share how I usually update my projects, focusing on AstroPaper as an example. Nonetheless, these steps can be applied to other js/node projects as well.
