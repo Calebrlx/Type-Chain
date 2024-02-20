@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Caleb Forestal",
   desc: "AI research lab",
   title: "Relix",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "astropaper-og.png",
   lightAndDarkMode: true,
   postPerPage: 3,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
