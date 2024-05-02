@@ -1,7 +1,7 @@
 ---
 title: "Ethical AI: Navigating the Moral Landscape"
 author: Caleb Forestal
-pubDatetime: 2022-07-05T02:05:51Z
+pubDatetime: 2024-05-01T02:05:51Z
 featured: false
 draft: false
 slug: the-ethics-of-ai-development-and-deployment
@@ -11,183 +11,33 @@ tags:
 description: "This article addresses the moral dilemmas posed by advancing AI technology, from privacy concerns to decision-making autonomy, and discusses how developers can create ethical AI systems that benefit humanity."
 ---
 
-In this post I will explain how to use the pre-commit Git hook to automate the input of the created (`pubDatetime`) and modified (`modDatetime`) in the AstroPaper blog theme frontmatter
+# Ethical AI: Navigating the Moral Landscape
 
-## Table of contents
+The era of Artificial Intelligence (AI) has ushered in revolutionary capabilities across sectors, but with great power comes great responsibility. Ethical AI refers to the practice of designing, developing, and deploying AI with good intention to benefit society while minimizing harm. This growing field addresses key moral dilemmas such as privacy, autonomy in decision-making, and bias, ensuring that AI advances do not come at the cost of ethical compromise. As AI becomes more pervasive, understanding and navigating these ethical landscapes become crucial for developers, users, and policymakers alike.
 
-## Have them Everywhere
+## The Landscape of AI Ethics
+Ethical concerns in AI revolve around three core principles: transparency, accountability, and fairness. Transparency involves the clarity and openness with which AI systems and their workings are made available to users and other stakeholders. Accountability addresses the need for AI systems—and those who create and operate them—to be responsible for the outcomes of AI decisions. Fairness requires that AI systems do not embed or perpetuate bias and that they operate in a just and equitable manner. Despite the best intentions, these principles are frequently challenged by the complexities inherent in AI technologies. For example, the often "black box" nature of AI algorithms can obscure the rationale behind decisions, complicating efforts to ensure transparency and accountability.
 
-[Git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) are great for automating tasks like [adding](https://gist.github.com/SSmale/3b380e5bbed3233159fb7031451726ea) or [checking](https://itnext.io/using-git-hooks-to-enforce-branch-naming-policy-ffd81fa01e5e) the branch name to your commit messages or [stopping you committing plain text secrets](https://gist.github.com/SSmale/367deee757a9b2e119d241e120249000). Their biggest flaw is that client-side hooks are per machine.
+## Privacy and AI
+AI's ability to collect, analyze, and store vast amounts of data raises significant privacy concerns. The technology can identify patterns and personal details from data that were previously thought to be anonymous, potentially exposing personal information without consent. Notable instances include voice assistants that continuously listen to and record conversations to improve language processing capabilities, inadvertently capturing sensitive personal conversations. The public and regulatory backlash to such privacy invasions has prompted calls for stricter privacy controls in AI development and deployment, emphasizing the need for ethical considerations from the outset.
 
-You can get around this by having a `hooks` directory and manually copy them to the `.git/hooks` directory or set up a symlink, but this all requires you to remember to set it up, and that is not something I am good at doing.
+## Autonomy in AI Decision-Making
+AI systems are increasingly used in decision-making processes that were traditionally the domain of humans—from hiring decisions to loan approvals and even judicial sentencing. This shift raises ethical questions about the autonomy of AI systems. Allowing AI to operate without sufficient human oversight may lead to outcomes that lack empathy and understanding of complex human contexts. The ethical imperative is to maintain a balance where AI enhances decision-making without completely replacing human judgment, ensuring that AI aids rather than obfuscates the human touch.
 
-As this project uses npm, we are able to make use of a package called [Husky](https://typicode.github.io/husky/) (this is already installed in AstroPaper) to automatically install the hooks for us.
+## Bias and Discrimination in AI
+Bias in AI systems can manifest when the data used to train these systems reflect existing prejudices or when the design of the algorithms themselves is flawed. Examples abound in facial recognition technologies that fail to accurately identify non-white, non-male faces due to underrepresentation in training datasets. Another case is recruitment AI tools that have mirrored historical hiring biases, favoring candidates based on gender or ethnicity. These instances highlight the ethical need to design AI systems that are not only reflective of diverse populations but also actively recognize and correct for biases. Case studies, such as the revisions IBM made to its facial recognition software to improve accuracy across demographics, illustrate both the challenges and the potential for AI to overcome these significant ethical hurdles.
 
-## The Hook
+## Developing Ethical AI
+To foster the development of ethical AI, developers must adhere to guidelines that prioritize human values and societal well-being. These guidelines include ensuring transparency in AI processes, where the decisions made by AI systems can be explained and understood by users. Accountability is also crucial; developers must ensure that there is always a way to hold systems (and their creators) responsible for their actions. Moreover, fairness must be integrated into every phase of AI development, from dataset collection to algorithm design, ensuring that these systems do not perpetuate existing biases or create new ones.
 
-As we want this hook to run as we commit the code to update the dates and then have that as part of our change we are going to use the `pre-commit` hook. This has already been set up by this AstroPaper project, but if it hadn't, you would run `npx husky add .husky/pre-commit 'echo "This is our new pre-commit hook"'`.
+Methodologies like Ethical AI Impact Assessments (EIAI) can be instrumental. These assessments encourage developers to think through potential negative impacts of AI systems on various communities and make adjustments before problems occur. Tools such as IBM's AI Fairness 360 provide developers with libraries to help detect and mitigate bias in machine learning models, showcasing how technical tools can support the ethical deployment of AI technologies.
 
-Navigating to the `hooks/pre-commit` file, we are going to add one or both of the following snippets.
+### Zephyr AI
+Zephyr AI specializes in healthcare analytics and has implemented a system that not only complies with strict privacy regulations but also ensures that patient data is used ethically to improve healthcare outcomes without compromising individual privacy. Their success lies in their rigorous adherence to ethical AI practices from the ground up, integrating stakeholder feedback into system development phases.
 
-### Updating the modified date when a file is edited
+### GoodAI Solutions
+GoodAI Solutions, a tech company, has developed an AI recruitment tool that actively works against bias. It does this by using algorithms designed to ignore demographic factors unrelated to job performance. The tool has been successful in helping companies achieve more diverse and competent workforces by focusing strictly on merit and potential. This case study illustrates the effectiveness of ethical AI in creating equitable opportunities in the workforce.
 
----
+The journey through the ethical landscape of AI illustrates a complex field fraught with challenges but also rich with opportunities for improvement. The ethical deployment of AI is not merely about avoiding harm but about actively doing good—creating systems that enhance our lives while respecting our values. As we advance, it is crucial for all stakeholders in AI development—from coders to executives—to embrace these challenges as central to their work.
 
-UPDATE:
-
-This section has been updated with a new version of the hook that is smarter. It will now not increment the `modDatetime` until the post is published. On the first publish, set the draft status to `first` and watch the magic happen.
-
----
-
-```shell
-# Modified files, update the modDatetime
-git diff --cached --name-status |
-grep -i '^M.*\.md$' |
-while read _ file; do
-  filecontent=$(cat "$file")
-  frontmatter=$(echo "$filecontent" | awk -v RS='---' 'NR==2{print}')
-  draft=$(echo "$frontmatter" | awk '/^draft: /{print $2}')
-  if [ "$draft" = "false" ]; then
-    echo "$file modDateTime updated"
-    cat $file | sed "/---.*/,/---.*/s/^modDatetime:.*$/modDatetime: $(date -u "+%Y-%m-%dT%H:%M:%SZ")/" > tmp
-    mv tmp $file
-    git add $file
-  fi
-  if [ "$draft" = "first" ]; then
-    echo "First release of $file, draft set to false and modDateTime removed"
-    cat $file | sed "/---.*/,/---.*/s/^modDatetime:.*$/modDatetime:/" | sed "/---.*/,/---.*/s/^draft:.*$/draft: false/" > tmp
-    mv tmp $file
-    git add $file
-  fi
-done
-```
-
-`git diff --cached --name-status` gets the files from git that have been staged for committing. The output looks like:
-
-```shell
-A       src/content/blog/setting-dates-via-git-hooks.md
-```
-
-The letter at the start denotes what action has been taken, in the above example the file has been added. Modified files have `M`
-
-We pipe that output into the grep command where we are looking at each line to find that have been modified. The line needs to start with `M` (`^(M)`), have any number of characters after that (`.*`) and end with the `.md` file extension (`.(md)$`).This is going to filter out the lines that are not modified markdown files `egrep -i "^(M).*\.(md)$"`.
-
----
-
-#### Improvement - More Explicit
-
-This could be added to only look for files that we markdown files in the `blog` directory, as these are the only ones that will have the right frontmatter
-
----
-
-The regex will capture the two parts, the letter and the file path. We are going to pipe this list into a while loop to iterate over the matching lines and assign the letter to `a` and the path to `b`. We are going to ignore `a` for now.
-
-To know the draft staus of the file, we need its frontmatter. In the following code we are using `cat` to get the content of the file, then using `awk` to split the file on the frontmatter separator (`---`) and taking the second block (the fonmtmatter, the bit between the `---`). From here we are using `awk` again to find the draft key and print is value.
-
-```shell
-  filecontent=$(cat "$file")
-  frontmatter=$(echo "$filecontent" | awk -v RS='---' 'NR==2{print}')
-  draft=$(echo "$frontmatter" | awk '/^draft: /{print $2}')
-```
-
-Now we have the value for `draft` we are going to do 1 of 3 things, set the modDatetime to now (when draft is false `if [ "$draft" = "false" ]; then`), clear the modDatetime and set draft to false (when draft is set to first `if [ "$draft" = "first" ]; then`), or nothing (in any other case).
-
-The next part with the sed command is a bit magical to me as I don't often use it, it was copied from [another blog post on doing something similar](https://mademistakes.com/notes/adding-last-modified-timestamps-with-git/). In essence, it is looking inside the frontmatter tags (`---`) of the file to find the `pubDatetime:` key, getting the full line and replacing it with the `pubDatetime: $(date -u "+%Y-%m-%dT%H:%M:%SZ")/"` same key again and the current datetime formatted correctly.
-
-This replacement is in the context of the whole file so we put that into a temporary file (`> tmp`), then we move (`mv`) the new file into the location of the old file, overwriting it. This is then added to git ready to be committed as if we made the change ourselves.
-
----
-
-#### NOTE
-
-For the `sed` to work the frontmatter needs to already have the `modDatetime` key in the frontmatter. There are some other changes you will need to make for the app to build with a blank date, see [further down](#empty-moddatetime-changes)
-
----
-
-### Adding the Date for new files
-
-Adding the date for a new file is the same process as above, but this time we are looking for lines that have been added (`A`) and we are going to replace the `pubDatetime` value.
-
-```shell
-# New files, add/update the pubDatetime
-git diff --cached --name-status | egrep -i "^(A).*\.(md)$" | while read a b; do
-  cat $b | sed "/---.*/,/---.*/s/^pubDatetime:.*$/pubDatetime: $(date -u "+%Y-%m-%dT%H:%M:%SZ")/" > tmp
-  mv tmp $b
-  git add $b
-done
-```
-
----
-
-#### Improvement - Only Loop Once
-
-We could use the `a` variable to switch inside the loop and either update the `modDatetime` or add the `pubDatetime` in one loop.
-
----
-
-## Populating the frontmatter
-
-If your IDE supports snippets then there is the option to create a custom snippet to populate the frontmatter.[In AstroPaper v4 will come with one for VSCode by default.](https://github.com/satnaing/astro-paper/pull/206)
-
-<video autoplay muted="muted" controls plays-inline="true" class="border border-skin-line">
-  <source src="https://github.com/satnaing/astro-paper/assets/17761689/e13babbc-2d78-405d-8758-ca31915e41b0" type="video/mp4">
-</video>
-
-## Empty `modDatetime` changes
-
-To allow Astro to compile the markdown and do its thing, it needs to know what is expected in the frontmatter. It does this via the config in `src/content/config.ts`
-
-To allow the key to be there with no value we need to edit line 10 to add the `.nullable()` function.
-
-```typescript
-const blog = defineCollection({
-  type: "content",
-  schema: ({ image }) =>
-    z.object({
-      author: z.string().default(SITE.author),
-      pubDatetime: z.date(),
--     modDatetime: z.date().optional(),
-+     modDatetime: z.date().optional().nullable(),
-      title: z.string(),
-      featured: z.boolean().optional(),
-      draft: z.boolean().optional(),
-      tags: z.array(z.string()).default(["others"]),
-      ogImage: image()
-        .refine(img => img.width >= 1200 && img.height >= 630, {
-          message: "OpenGraph image must be at least 1200 X 630 pixels!",
-        })
-        .or(z.string())
-        .optional(),
-      description: z.string(),
-      canonicalURL: z.string().optional(),
-      readingTime: z.string().optional(),
-    }),
-});
-```
-
-To stop the IDE complaining in the blog engine files I have also done the following:
-
-1. added `| null` to line 15 in `src/layouts/Layout.astro` so that it looks like
-
-```typescript
-export interface Props {
-  title?: string;
-  author?: string;
-  description?: string;
-  ogImage?: string;
-  canonicalURL?: string;
-  pubDatetime?: Date;
-  modDatetime?: Date | null;
-}
-```
-
-<!-- This needs to be 2 as it doesn't pick it up with the code block -->
-
-2. added `| null` to line 5 in `src/components/Datetime.tsx` so that it looks like
-
-```typescript
-interface DatetimesProps {
-  pubDatetime: string | Date;
-  modDatetime: string | Date | undefined | null;
-}
-```
+The call to action is clear: AI developers and stakeholders must prioritize ethical considerations, embedding them into the fabric of AI research, development, and deployment. By doing so, we can ensure that AI technologies are not only powerful and innovative but also just and beneficial for all segments of society.
