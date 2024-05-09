@@ -1,11 +1,11 @@
 ---
 title: "How Sparse Retrieval is Revolutionizing Information Access in Large Datasets"
+slug: sparse-retrieval-revolutionizing-information-access
 description: "Learn how sparse retrieval is transforming the way we access information in large datasets, enabling faster, more efficient, and more accurate search results."
 tags: 
     - AI Trends and Insights 
     - Information Retrieval 
     - Sparse Retrieval
-slug: sparse-retrieval-revolutionizing-information-access
 featured: false
 draft: false
 author: Caleb Forestal
