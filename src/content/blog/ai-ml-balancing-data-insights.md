@@ -4,7 +4,7 @@ slug: ai-ml-balancing-data-insights
 description: "Explore the transformative power of artificial intelligence (AI) and machine learning (ML) in balancing vast data sets with actionable insights, and how these technologies are paving the way for smarter decision-making across industries."
 tags: AI, ML, Data Science, Decision Making
 author: Caleb Forestal
-published date: 2024-05-10T00:00:00Z
+pubDatetime: 2024-05-10T00:00:00Z
 ---
 
 ## Revolutionizing Everyday Decisions: How AI and ML Balance Data and Insights
