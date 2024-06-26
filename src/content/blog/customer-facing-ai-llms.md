@@ -1,7 +1,7 @@
 ---
-title: Transforming Customer Service with AI: The Power of Large Language Models
+title: "Transforming Customer Service with AI: The Power of Large Language Models"
 slug: customer-facing-ai-llms
-description: Learn how Large Language Models are revolutionizing customer service interactions via web interfaces, messaging apps, and phone calls, enhancing both efficiency and customer satisfaction.
+description: "Learn how Large Language Models are revolutionizing customer service interactions via web interfaces, messaging apps, and phone calls, enhancing both efficiency and customer satisfaction."
 featured: false
 draft: false
 tags:
@@ -9,7 +9,7 @@ tags:
   - Customer Service
   - Large Language Models
 author: Caleb Forestal
-publication Date: 2024-07-01T10:00:00Z
+pubDatetime: 2024-07-01T10:00:00Z
 ---
 
 As artificial intelligence technology evolves, one of the most transformative tools emerging are Large Language Models (LLMs) like ChatGPT. These AI models are now being integrated into various customer-facing platforms, including web user interfaces, messaging apps, and phone systems. This blog explores how LLMs can be leveraged to improve customer interactions, streamline service processes, and provide personalized experiences at scale.
