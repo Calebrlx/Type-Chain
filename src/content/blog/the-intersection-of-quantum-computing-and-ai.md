@@ -1,15 +1,15 @@
 ---
 title: "Quantum Computing and AI: A Future Together"
-author: Caleb Forestal
-pubDatetime: 2024-05-01T02:05:51Z
-featured: false
-draft: false
 slug: the-intersection-of-quantum-computing-and-ai
+description: "Investigate how quantum computing could revolutionize artificial intelligence by exponentially increasing processing power, enabling AI to solve complex problems faster and more efficiently than ever before."
 tags:
   - AI
   - ML
-  - QuantumMechanics
-description: "Investigate how quantum computing could revolutionize artificial intelligence by exponentially increasing processing power, enabling AI to solve complex problems faster and more efficiently than ever before."
+  - Quantum Mechanics
+featured: false
+draft: false
+author: Caleb Forestal
+pubDatetime: 2024-05-01T02:05:51Z
 ---
 
 # Quantum Computing and AI: A Future Together

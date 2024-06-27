@@ -2,12 +2,12 @@
 title: "Harnessing Publicly Available Market Data for Real Estate Success"
 slug: market-data-real-estate
 description: "Explore top publicly available sources of market data that can transform the way real estate agents analyze trends and enhance decision-making."
-featured: false
-draft: false
 tags:
   - Real Estate
   - Market Data
   - Business Intelligence
+featured: false
+draft: false
 author: Caleb Forestal
 pubDatetime: 2024-06-30T10:00:00Z
 ---

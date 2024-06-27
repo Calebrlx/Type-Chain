@@ -2,12 +2,12 @@
 title: "Transforming Customer Service with AI: The Power of Large Language Models"
 slug: customer-facing-ai-llms
 description: "Learn how Large Language Models are revolutionizing customer service interactions via web interfaces, messaging apps, and phone calls, enhancing both efficiency and customer satisfaction."
-featured: false
-draft: false
 tags:
   - AI Technology
   - Customer Service
   - Large Language Models
+featured: false
+draft: false
 author: Caleb Forestal
 pubDatetime: 2024-07-01T10:00:00Z
 ---

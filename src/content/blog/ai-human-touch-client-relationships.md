@@ -2,12 +2,12 @@
 title: "AI and the Human Touch: Balancing Technology with Personalized Client Relationships"
 slug: ai-human-touch-client-relationships
 description: "Explore how AI can free up time for real estate agents to focus on building stronger, more personal relationships with their clients."
-featured: false
-draft: false
 tags:
   - AI Technology
   - Real Estate
   - Client Relationships
+featured: false
+draft: false
 author: Caleb Forestal
 pubDatetime: 2024-07-03T10:00:00Z
 ---

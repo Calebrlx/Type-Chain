@@ -2,12 +2,12 @@
 title: "Revolutionizing Workflow Automation with Autonomous Agents"
 slug: autonomous-agents-workflow-automation
 description: "Explore how autonomous agents are transforming workflow automation, enhancing efficiency, reducing errors, and freeing up human resources for more strategic tasks."
-featured: false
-draft: false
 tags:
   - AI Technology
   - Workflow Automation
   - Business Efficiency
+featured: false
+draft: false
 author: Caleb Forestal
 pubDatetime: 2024-07-02T10:00:00Z
 ---

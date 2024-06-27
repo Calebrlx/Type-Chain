@@ -2,17 +2,15 @@
 title: "Enhancing Real Estate Searches with Vector Databases"
 slug: vector-databases-real-estate
 description: "Discover how real estate agents can leverage Vector Databases to improve property search accuracy, enhance visual searches, and provide personalized experiences to clients."
-featured: false
-draft: false
 tags:
   - Real Estate
   - Technology
   - Vector Databases
+featured: false
+draft: false
 author: Caleb Forestal
 pubDatetime: 2024-06-30T10:00:00Z
 ---
-
-
 
 ## Leveraging VectorDBs for Enhanced Real Estate Listings: A Guide for Agents
 

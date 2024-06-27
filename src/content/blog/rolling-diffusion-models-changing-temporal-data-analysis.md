@@ -1,5 +1,6 @@
 ---
 title: "Rolling Into the Future: How Rolling Diffusion Models Are Changing Temporal Data Analysis"
+slug: rolling-diffusion-models-changing-temporal-data-analysis
 description: "Explore the groundbreaking approach of Rolling Diffusion Models, which revolutionizes the processing of temporal data such as video and climate simulations. By incorporating a sliding window denoising process, this method offers a superior way to predict and simulate dynamic systems, setting new standards in video processing, scientific simulations, and forecasting."
 tags: 
     - Temporal Data Analysis
@@ -9,7 +10,6 @@ tags:
     - Climate Forecasting
     - Rolling Diffusion
     - Innovation in AI
-slug: rolling-diffusion-models-changing-temporal-data-analysis
 featured: False
 draft: True
 author: Caleb Forestal

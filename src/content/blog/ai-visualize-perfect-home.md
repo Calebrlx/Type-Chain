@@ -2,12 +2,12 @@
 title: "From Data to Dreams: How AI is Helping Clients Visualize Their Perfect Home"
 slug: ai-visualize-perfect-home
 description: "Discuss how AI tools are helping clients visualize potential homes through personalized virtual staging and customization options."
-featured: false
-draft: false
 tags:
   - AI Technology
   - Real Estate
   - Visualization Tools
+featured: false
+draft: false
 author: Caleb Forestal
 pubDatetime: 2024-07-04T10:00:00Z
 ---

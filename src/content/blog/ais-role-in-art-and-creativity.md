@@ -1,14 +1,14 @@
 ---
 title: "The AI Artist: Creativity Born from Code"
-author: Caleb Forestal
-pubDatetime: 2024-05-01T02:05:51Z
-featured: false
-draft: false
 slug: ais-role-in-art-and-creativity
+description: "Delve into the fascinating world of AI-generated art, examining how algorithms are being used to create music, literature, and visual arts, challenging our traditional notions of creativity."
 tags:
   - AI
   - ML
-description: "Delve into the fascinating world of AI-generated art, examining how algorithms are being used to create music, literature, and visual arts, challenging our traditional notions of creativity."
+featured: false
+draft: false
+author: Caleb Forestal
+pubDatetime: 2024-05-01T02:05:51Z
 ---
 
 # The AI Artist: Creativity Born from Code

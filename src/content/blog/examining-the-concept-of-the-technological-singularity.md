@@ -1,14 +1,14 @@
 ---
 title: "The Singularity is Nearer: AI's Exponential Growth"
-author: Caleb Forestal
-pubDatetime: 2024-05-01T02:05:51Z
-featured: false
-draft: false
 slug: examining-the-concept-of-the-technological-singularity
+description: "This post explores the idea of the singularity—the point at which AI will surpass human intelligence—and its implications for society, discussing both the optimistic and cautionary perspectives."
 tags:
   - AI
   - ML
-description: "This post explores the idea of the singularity—the point at which AI will surpass human intelligence—and its implications for society, discussing both the optimistic and cautionary perspectives."
+featured: false
+draft: false
+author: Caleb Forestal
+pubDatetime: 2024-05-01T02:05:51Z
 ---
 
 # The Singularity is Nearer: AI's Exponential Growth

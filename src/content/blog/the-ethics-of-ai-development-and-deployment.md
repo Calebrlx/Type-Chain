@@ -1,14 +1,14 @@
 ---
 title: "Ethical AI: Navigating the Moral Landscape"
-author: Caleb Forestal
-pubDatetime: 2024-05-01T02:05:51Z
-featured: false
-draft: false
 slug: the-ethics-of-ai-development-and-deployment
+description: "This article addresses the moral dilemmas posed by advancing AI technology, from privacy concerns to decision-making autonomy, and discusses how developers can create ethical AI systems that benefit humanity."
 tags:
   - TypeScript
   - QuantumComputing
-description: "This article addresses the moral dilemmas posed by advancing AI technology, from privacy concerns to decision-making autonomy, and discusses how developers can create ethical AI systems that benefit humanity."
+featured: false
+draft: false
+author: Caleb Forestal
+pubDatetime: 2024-05-01T02:05:51Z
 ---
 
 # Ethical AI: Navigating the Moral Landscape

@@ -1,14 +1,14 @@
 ---
 title: "Data Privacy in the Age of AI: A Balancing Act"
-author: Caleb Forestal
-pubDatetime: 2024-05-01T02:05:51Z
-featured: false
-draft: false
 slug: the-challenges-of-data-privacy-with-ai-advancements
+description: "Analyze the complex relationship between data privacy and artificial intelligence, highlighting the risks, responsibilities, and strategies to protect sensitive information in an increasingly AI-driven world."
 tags:
   - TypeScript
   - QuantumComputing
-description: "Analyze the complex relationship between data privacy and artificial intelligence, highlighting the risks, responsibilities, and strategies to protect sensitive information in an increasingly AI-driven world."
+featured: false
+draft: false
+author: Caleb Forestal
+pubDatetime: 2024-05-01T02:05:51Z
 ---
 
 # Data Privacy in the Age of AI: A Balancing Act

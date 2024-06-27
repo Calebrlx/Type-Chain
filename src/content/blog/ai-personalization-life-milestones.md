@@ -2,12 +2,12 @@
 title: "Celebrating Life Milestones: AI-Powered Personalization for Home Buyers"
 slug: ai-personalization-life-milestones
 description: "Write about how AI can personalize the home-buying experience to celebrate significant life milestones."
-featured: false
-draft: false
 tags:
   - AI Technology
   - Real Estate
   - Personalization
+featured: false
+draft: false
 author: Caleb Forestal
 pubDatetime: 2024-07-10T10:00:00Z
 ---

@@ -1,14 +1,14 @@
 ---
 title: "AI in Healthcare: Saving Lives with Algorithms"
-author: Caleb Forestal
-pubDatetime: 2024-05-01T02:05:51Z
-featured: false
-draft: false
 slug: the-impact-of-ai-on-healthcare
+description: "Explore the transformative potential of artificial intelligence in healthcare, from diagnostic accuracy and personalized medicine to operational efficiencies, and its implications for patients and professionals alike."
 tags:
   - AI
   - ML
-description: "Explore the transformative potential of artificial intelligence in healthcare, from diagnostic accuracy and personalized medicine to operational efficiencies, and its implications for patients and professionals alike."
+featured: false
+draft: false
+author: Caleb Forestal
+pubDatetime: 2024-05-01T02:05:51Z
 ---
 
 # AI in Healthcare: Saving Lives with Algorithms

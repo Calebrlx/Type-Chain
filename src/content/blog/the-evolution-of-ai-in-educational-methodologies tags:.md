@@ -1,14 +1,14 @@
 ---
 title: "AI in Education: Personalized Learning Paths"
-author: Caleb Forestal
-pubDatetime: 2024-05-01T02:05:51Z
-featured: false
-draft: false
 slug: the-evolution-of-ai-in-educational-methodologies
+description: "Discover how AI is transforming education through personalized learning experiences, adaptive teaching methods, and automated administrative tasks, potentially democratizing access to quality education for all."
 tags:
   - AI
   - ML
-description: "Discover how AI is transforming education through personalized learning experiences, adaptive teaching methods, and automated administrative tasks, potentially democratizing access to quality education for all."
+featured: false
+draft: false
+author: Caleb Forestal
+pubDatetime: 2024-05-01T02:05:51Z
 ---
 
 # AI in Education: Personalized Learning Paths

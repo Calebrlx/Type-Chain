@@ -2,12 +2,12 @@
 title: "AI and the Art of Storytelling: Crafting Compelling Property Narratives"
 slug: ai-storytelling-property-narratives
 description: "Look into how AI can assist real estate agents in crafting compelling narratives around properties."
-featured: false
-draft: false
 tags:
   - AI Technology
   - Real Estate
   - Storytelling
+featured: false
+draft: false
 author: Caleb Forestal
 pubDatetime: 2024-07-06T10:00:00Z
 ---

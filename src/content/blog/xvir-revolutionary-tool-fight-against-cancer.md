@@ -1,5 +1,6 @@
 ---
 title: "XVir: A Revolutionary Tool in the Fight Against Cancer"
+slug: xvir-revolutionary-tool-fight-against-cancer
 description: "Discover how the XVir pipeline, leveraging transformer-based deep learning, is setting a new standard in detecting viral DNA within cancer samples, offering new insights into cancer research."
 tags: 
     - Cancer Research 
@@ -8,7 +9,6 @@ tags:
     - Transformers
     - XVir
     - Healthcare Technology
-slug: xvir-revolutionary-tool-fight-against-cancer
 featured: False
 draft: True
 author: Caleb Forestal,

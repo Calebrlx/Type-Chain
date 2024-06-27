@@ -2,12 +2,12 @@
 title: "Emotional Intelligence in AI: Understanding Buyer and Seller Sentiments"
 slug: ai-emotional-intelligence-sentiments
 description: "Examine how AI can be used to gauge and understand the emotional sentiments of buyers and sellers."
-featured: false
-draft: false
 tags:
   - AI Technology
   - Real Estate
   - Emotional Intelligence
+featured: false
+draft: false
 author: Caleb Forestal
 pubDatetime: 2024-07-05T10:00:00Z
 ---

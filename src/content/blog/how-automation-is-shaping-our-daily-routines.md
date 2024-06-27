@@ -1,14 +1,14 @@
 ---
 title: "Robots Among Us: The Rise of Automation in Everyday Life"
-author: Caleb Forestal
-pubDatetime: 2024-05-01T02:05:51Z
-featured: false
-draft: false
 slug: how-automation-is-shaping-our-daily-routines
+description: "Investigate the increasing presence of robots and automation in our homes, workplaces, and public spaces, discussing the benefits, challenges, and societal impacts of this technological evolution."
 tags:
   - AI
   - ML
-description: "Investigate the increasing presence of robots and automation in our homes, workplaces, and public spaces, discussing the benefits, challenges, and societal impacts of this technological evolution."
+featured: false
+draft: false
+author: Caleb Forestal
+pubDatetime: 2024-05-01T02:05:51Z
 ---
 
 # Robots Among Us: The Rise of Automation in Everyday Life

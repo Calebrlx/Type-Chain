@@ -2,12 +2,12 @@
 title: "The Emotional Intelligence of AI: Building Trust and Rapport with Clients"
 slug: ai-emotional-intelligence-trust-rapport
 description: "Explore how AI technologies equipped with emotional intelligence capabilities can help real estate agents understand and respond to the emotional states of their clients."
-featured: false
-draft: false
 tags:
   - AI Technology
   - Real Estate
   - Emotional Intelligence
+featured: false
+draft: false
 author: Caleb Forestal
 pubDatetime: 2024-07-07T10:00:00Z
 ---

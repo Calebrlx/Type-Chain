@@ -2,15 +2,17 @@
 title: "Reviving Neighborhood Stories: How AI Uncovers the History of Homes"
 slug: ai-reviving-neighborhood-stories
 description: "Discuss how AI can be used to gather and narrate the historical and emotional significance of properties and neighborhoods."
-featured: false
-draft: false
 tags:
   - AI Technology
   - Real Estate
   - History
+featured: false
+draft: false
 author: Caleb Forestal
 pubDatetime: 2024-07-08T10:00:00Z
 ---
+
+
 
 **Reviving Neighborhood Stories: How AI Uncovers the History of Homes**
 

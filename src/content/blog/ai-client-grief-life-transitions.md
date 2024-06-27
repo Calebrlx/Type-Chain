@@ -2,12 +2,12 @@
 title: "AI as a Partner in Navigating Client Grief and Life Transitions"
 slug: ai-client-grief-life-transitions
 description: "Detail how AI tools can assist real estate agents in handling sensitive situations such as estate sales or downsizing due to life transitions like divorce or death."
-featured: false
-draft: false
 tags:
   - AI Technology
   - Real Estate
   - Life Transitions
+featured: false
+draft: false
 author: Caleb Forestal
 pubDatetime: 2024-07-09T10:00:00Z
 ---

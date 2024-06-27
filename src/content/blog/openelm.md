@@ -2,14 +2,14 @@
 title: "Unlocking the Power of BERT for Advanced Enterprise Solutions with RelixAI"
 slug: openelm
 description: "OpenELM: Apples A.I."
-featured: false
-draft: true
 tags:
   - AI
   - OpenELM
   - LLM
   - OSS
   - Apple
+featured: false
+draft: true
 author: Caleb Forestal
 pubDatetime: 2024-05-01T02:05:51Z
 ---

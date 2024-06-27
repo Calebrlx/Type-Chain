@@ -2,14 +2,14 @@
 title: "Unlocking the Power of BERT for Advanced Enterprise Solutions with RelixAI"
 slug: bert-enterprise-solutions
 description: "Leveraging BERT for enhanced NLP in enterprise applications"
-featured: false
-draft: false
 tags:
   - AI
   - BERT
   - LLM
   - NLP
   - Enterprise
+featured: false
+draft: false
 author: Caleb Forestal
 pubDatetime: 2024-05-21T02:05:51Z
 ---

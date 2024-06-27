@@ -1,14 +1,14 @@
 ---
 title: "Machine Learning 101: From Theory to Application"
-author: Caleb Forestal
-pubDatetime: 2024-05-01T02:05:51Z
-featured: false
-draft: false
 slug: an-introduction-to-machine-learning
+description: "This comprehensive guide introduces the fundamentals of machine learning, its various models and algorithms, and real-world applications, offering readers a solid foundation in this pivotal area of AI."
 tags:
   - AI
   - ML
-description: "This comprehensive guide introduces the fundamentals of machine learning, its various models and algorithms, and real-world applications, offering readers a solid foundation in this pivotal area of AI."
+featured: false
+draft: false
+author: Caleb Forestal
+pubDatetime: 2024-05-01T02:05:51Z
 ---
 
 # Machine Learning 101: From Theory to Application

@@ -1,14 +1,14 @@
 ---
 title: "AI Unveiled: Myths vs. Reality"
-author: Caleb Forestal
-pubDatetime: 2024-05-01T02:05:51Z
 slug: exploring-common-misconceptions-about-ai
-featured: false
-draft: false
+description: "This post dives into the world of artificial intelligence to debunk popular myths, compare them against the actual capabilities and limitations of AI, and offer a realistic view of its current and future potential."
 tags:
   - AI
   - ML
-description: "This post dives into the world of artificial intelligence to debunk popular myths, compare them against the actual capabilities and limitations of AI, and offer a realistic view of its current and future potential."
+featured: false
+draft: false
+author: Caleb Forestal
+pubDatetime: 2024-05-01T02:05:51Z
 ---
 
 # AI Unveiled: Myths vs. Reality
