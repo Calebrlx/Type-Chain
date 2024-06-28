@@ -6,7 +6,7 @@ tags:
   - AI Technology
   - Real Estate
   - History
-featured: false
+featured: true
 draft: false
 author: Caleb Forestal
 pubDatetime: 2024-07-08T10:00:00Z
