@@ -9,7 +9,7 @@ tags:
 featured: false
 draft: false
 author: Caleb Forestal
-pubDatetime: 2024-05-01T10:00:00Z
+pubDatetime: 2024-05-01T10:37:00Z
 ---
 
 # Quantum Computing and AI: A Future Together

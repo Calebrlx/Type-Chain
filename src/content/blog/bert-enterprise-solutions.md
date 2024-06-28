@@ -11,7 +11,7 @@ tags:
 featured: false
 draft: false
 author: Caleb Forestal
-pubDatetime: 2024-05-21T10:00:00Z
+pubDatetime: 2024-05-21T10:14:00Z
 ---
 
 **Unlocking the Power of BERT for Advanced Enterprise Solutions with RelixAI**

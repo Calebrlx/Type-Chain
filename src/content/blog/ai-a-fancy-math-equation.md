@@ -9,7 +9,7 @@ tags:
 featured: false
 draft: true
 author: Caleb Forestal
-pubDatetime: 2024-06-12T12:00:00Z
+pubDatetime: 2024-02-12T10:21:00Z
 ---
 
 # AI: A Fancy Math Equation

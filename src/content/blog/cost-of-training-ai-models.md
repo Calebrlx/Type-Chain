@@ -9,7 +9,7 @@ tags:
 featured: false
 draft: false
 author: Caleb Forestal
-pubDatetime: 2024-05-01T10:00:00Z
+pubDatetime: 2024-05-01T10:24:00Z
 ---
 
 The Cost of Training AI Models: A Deep Dive

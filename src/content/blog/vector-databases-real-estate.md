@@ -9,7 +9,7 @@ tags:
 featured: false
 draft: false
 author: Caleb Forestal
-pubDatetime: 2024-06-30T10:00:00Z
+pubDatetime: 2024-06-30T10:43:00Z
 ---
 
 ## Leveraging VectorDBs for Enhanced Real Estate Listings: A Guide for Agents

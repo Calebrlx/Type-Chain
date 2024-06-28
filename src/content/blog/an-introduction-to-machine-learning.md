@@ -8,7 +8,7 @@ tags:
 featured: false
 draft: false
 author: Caleb Forestal
-pubDatetime: 2024-05-08T10:00:00Z
+pubDatetime: 2024-05-08T10:25:00Z
 ---
 
 # Machine Learning 101: From Theory to Application

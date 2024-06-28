@@ -13,7 +13,7 @@ tags:
 featured: False
 draft: True
 author: Caleb Forestal
-pubDatetime: 2024-02-17T10:00:00Z
+pubDatetime: 2024-02-17T10:36:00Z
 ---
 
 The study focuses on applying diffusion models to temporal data, which includes data types like video, fluid mechanics simulations, or climate data. Typically, diffusion models treat subsequent frames of data equally in terms of the amount of noise during the diffusion process. However, this paper introduces a new approach called "Rolling Diffusion," which employs a sliding window denoising process to enhance how the diffusion process is applied to temporal data.
