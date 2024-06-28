@@ -8,7 +8,7 @@ tags:
 featured: false
 draft: false
 author: Caleb Forestal
-pubDatetime: 2024-05-01T10:00:00Z
+pubDatetime: 2024-06-05T10:00:00Z
 ---
 
 # Robots Among Us: The Rise of Automation in Everyday Life

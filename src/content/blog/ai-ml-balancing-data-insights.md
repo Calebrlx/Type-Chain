@@ -10,7 +10,7 @@ tags:
 featured: false
 draft: false
 author: Caleb Forestal
-pubDatetime: 2024-05-10T00:00:00Z
+pubDatetime: 2024-06-19T00:00:00Z
 ---
 
 ## Revolutionizing Everyday Decisions: How AI and ML Balance Data and Insights
