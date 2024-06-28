@@ -9,7 +9,7 @@ tags:
 featured: false
 draft: false
 author: Caleb Forestal
-pubDatetime: 2024-07-09T10:00:00Z
+pubDatetime: 2024-03-06T10:00:00Z
 ---
 
 As real estate agents, we've all been there - standing in the midst of a client's most vulnerable moments, trying to navigate the complexities of their emotional landscape while still doing our job. It's a delicate dance, one that requires empathy, tact, and a deep understanding of the human experience. But what if I told you that AI can be a powerful partner in this process, helping you provide exceptional service to clients going through life's toughest transitions?

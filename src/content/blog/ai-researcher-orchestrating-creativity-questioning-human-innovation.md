@@ -9,7 +9,7 @@ tags:
 featured: false
 draft: false
 author: Caleb Forestal
-pubDatetime: 2024-05-07T02:05:51Z
+pubDatetime: 2024-05-07T10:00:00Z
 ---
 
 The AI Researcher: Orchestrating Creativity and Questioning Human Innovation

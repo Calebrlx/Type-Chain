@@ -8,7 +8,7 @@ tags:
 featured: false
 draft: false
 author: Caleb Forestal
-pubDatetime: 2024-05-01T02:05:51Z
+pubDatetime: 2024-05-27T10:00:00Z
 ---
 
 # AI in Education: Personalized Learning Paths

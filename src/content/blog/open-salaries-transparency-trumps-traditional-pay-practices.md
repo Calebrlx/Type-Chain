@@ -9,7 +9,7 @@ tags:
 featured: false
 draft: false
 author: Caleb Forestal
-pubDatetime: 2024-05-08T02:05:51Z
+pubDatetime: 2024-05-08T10:00:00Z
 ---
 
 **The Case for Open Salaries: Why Transparency Trumps Traditional Pay Practices**

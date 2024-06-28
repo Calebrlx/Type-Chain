@@ -10,7 +10,7 @@ tags:
 featured: false
 draft: true
 author: Caleb Forestal
-pubDatetime: 2024-05-10T12:00:00Z
+pubDatetime: 2024-05-10T10:00:00Z
 ---
 
 **The Edge AI Revolution: Benefits of Processing Data Locally in Edge Devices**

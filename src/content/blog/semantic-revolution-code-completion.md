@@ -11,7 +11,7 @@ tags:
 featured: false
 draft: true
 author: Caleb Forestal
-pubDatetime: 2024-05-01T02:05:51Z
+pubDatetime: 2024-05-11T10:00:00Z
 ---
 
 The Semantic Revolution: How AI-Powered Code Completion is Changing the Game for Developers and PMs

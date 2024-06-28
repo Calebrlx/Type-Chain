@@ -9,7 +9,7 @@ tags:
 featured: false
 draft: false
 author: Caleb Forestal
-pubDatetime: 2024-07-02T10:00:00Z
+pubDatetime: 2024-03-02T10:00:00Z
 ---
 
 In the ever-evolving landscape of business technology, autonomous agents are at the forefront of a revolution in workflow automation. These intelligent systems are designed to perform tasks without human intervention, streamlining processes, reducing errors, and allowing human resources to focus on strategic, high-value activities. This blog post delves into how autonomous agents are transforming workflow automation across various industries.

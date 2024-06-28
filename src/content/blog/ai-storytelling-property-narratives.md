@@ -9,7 +9,7 @@ tags:
 featured: false
 draft: false
 author: Caleb Forestal
-pubDatetime: 2024-07-06T10:00:00Z
+pubDatetime: 2024-06-06T10:00:00Z
 ---
 
 **AI and the Art of Storytelling: Crafting Compelling Property Narratives**
